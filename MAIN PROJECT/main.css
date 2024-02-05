@@ -236,8 +236,20 @@ header ul li a:active
     right: 16px;
 }
 
+.text_above_global{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.text_above_global h2{
+   font-size: 50px;
+}
+
+
 .globe{
     margin: 80px;
+    margin-top: 20px;
+    margin-bottom: 9px;
     justify-content: center;
     text-align: center;
 }

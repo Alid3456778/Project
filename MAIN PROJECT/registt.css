@@ -379,7 +379,10 @@ footer ul {
     line-height: 1.25rem;
     margin-top: .5rem;
 }
-
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
 footer ul li {
     margin: .25rem 0;
     cursor: pointer;
@@ -432,7 +435,7 @@ form .g-inp {
     background-color: var(--theme-col);
     border-radius: .25rem;
     font-size: 16px;
-    color: white;
+    color: gray;
     font-weight: 500;
 }
 
