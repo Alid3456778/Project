@@ -372,7 +372,7 @@ form .g-inp{
     background-color: var(--theme-col);
     border-radius: .25rem;
     font-size: 16px;
-    color: white;
+    color: gray;
     font-weight: 500;
 }
 .vi{
