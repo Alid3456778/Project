@@ -84,7 +84,7 @@
             
               </textarea>
 
-          <textarea id="story" name="story" rows="5" cols="50" >Please Enter Your Address  :  
+          <textarea id="story" name="story" rows="5" cols="50" required>Please Enter Your Address  :  
               </textarea>
 
         </div>
@@ -109,9 +109,15 @@
             <option class="opti" value="Chureito Pagoda">Chureito Pagoda</option>
            
           </select>
+          <select name="fixture-use" id="fixture-use" required>
+            <option class="opti" value="">Please select the pack</option>
+            <option class="opti" value="Luxury Explorer">Luxury Explorer</option>
+            <option class="opti" value="Discoverer's Delight">Discoverer's Delight</option>
+            <option class="opti" value="Budget Explorer">Budget Explorer</option>
+          </select>
           <input type="tel" name="number" id="" placeholder="Count of People">
-          <input type="submit" name="submit" placeholder="Book" class="mit">
-          <input type="reset" name="reset" placeholder="Reset" class="reset">
+          <input type="submit" name="submit" placeholder="Book" class="mit"  required>
+          <input type="reset" name="reset" placeholder="Reset" class="reset" required>
         </div>
       </form>
     </div>
