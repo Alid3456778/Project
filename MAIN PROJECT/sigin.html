@@ -11,20 +11,24 @@
 </head>
 <body>
     <div class="wrapper">
-        <form action="">
-            <h1>Sign In</h1>
+        <form action="connect.php" method="post">
+            <h1 style="color: black;">Sign In</h1>
             <div class="input-box">
-                <input type="text" placeholder="Username" required>
+                <input type="text" placeholder="First Name" id="firstName" required name="firstName"  style="color: black;">
             </div>
             <div class="input-box">
-                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Last Name" required name="lastName"  style="color: black;">
             </div>
             <div class="input-box">
-                <input  type="tel" placeholder="Contact" required>
+                <input type="email" placeholder="Email" required name="email"  style="color: black;">
             </div>
             <div class="input-box">
-                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Password" required name="password"  style="color: black;">
             </div>
+            <div class="input-box">
+                <input  type="number" placeholder="Contact" required name="number"  style="color: black;">
+            </div>
+
             <div class="remember-forgot">
                 <label><input type="checkbox">Remember me</label>
                 <a href="login.html">Already have an Account</a>
