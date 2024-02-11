@@ -19,9 +19,10 @@
     {
         $data=$stmt_result->fetch_assoc();
         if($data['password']=== $password){
-            echo"<h2>login succesfull</h2>";
+          include 'main.html';
         }
         else{
+            include 'login.html';
             echo "<script>alert('invalid password');</script>";
         }
     }
