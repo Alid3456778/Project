@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+      </style>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="connect.php" method="post">
+            <h1 style="color: black;">Sign In</h1>
+            <div class="input-box">
+                <input type="text" placeholder="First Name" id="firstName" required name="firstName"  style="color: black;">
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Last Name" required name="lastName"  style="color: black;">
+            </div>
+            <div class="input-box">
+                <input type="email" placeholder="Email" required name="email"  style="color: black;">
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" required name="password"  style="color: black;">
+            </div>
+            <div class="input-box">
+                <input  type="number" placeholder="Contact" required name="number"  style="color: black;">
+            </div>
+
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="login.html">Already have an Account</a>
+            </div>
+            <button type="submit" class="btn">Creat</button>
+            
+
+        </form>
+
+    </div>
+</body>
+</html>
