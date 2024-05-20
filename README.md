@@ -1,6 +1,5 @@
 ﻿# Project
 strat with : main.html
-![Screenshot (73)](https://github.com/Alid3456778/Project/assets/136569307/891c7a88-1c6a-4d23-8e4d-57b670633f50)
+![Screenshot (73)](https://github.com/Alid3456778/Project/assets/136569307/27fd1b26-4b4f-4f50-91bc-51a945584ec8)
 __
-![Screenshot (74)](https://github.com/Alid3456778/Project/assets/136569307/d6f2204f-6b68-4bdb-8f5b-c725d2bfe801)
-
+![Screenshot (74)](https://github.com/Alid3456778/Project/assets/136569307/e067be52-4ed5-4a6d-b111-ad78d0aa4073)
